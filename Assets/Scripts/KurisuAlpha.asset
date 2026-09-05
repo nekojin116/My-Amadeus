@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61867f967848b1b49ab96dcd830ae18a, type: 3}
+  m_Name: KurisuAlpha
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterProfile
+  characterName: Amadeus
+  systemPromptFile: {fileID: 4900000, guid: 0f6a86468db067d40885291f3b0a35f0, type: 3}
+  systemPromptFallback: 
+  greetingMessage: Hello, this is Amadeus !
+  preferredProvider: 0
+  preferredModel: 
