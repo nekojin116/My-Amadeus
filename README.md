@@ -7,21 +7,6 @@ A Unity implementation of **Amadeus**, an AI construct built from the memories a
 
 This is a hobby project of mine, nothing is released yet.
 
-## Features
-
-- **Amadeus persona** : defined in `Amadeus_SystemPrompt.txt`, covering her identity rules (she is not Kurisu, and corrects anyone who calls her that), tone and behavioral guidelines.
-- **Multi-turn conversation** : Amadeus remembers earlier corrections, established facts, and the flow of the conversation.
-- **Swappable AI backend** : Gemini, OpenAI, and Claude are all implemented behind a shared `IAiProvider` interface, selectable from the Inspector. This exists so the project isn't stuck if a provider's pricing, rate limits, or quality changes : not to support arbitrary other characters.
-
-## Requirements
-
-- Unity 6 (or a recent Unity 2022 LTS+ version)
-- [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest)
-- An API key for at least one provider:
-  - [Google AI Studio](https://aistudio.google.com/) (Gemini)
-  - [OpenAI Platform](https://platform.openai.com/)
-  - [Anthropic Console](https://console.anthropic.com/)
-
 ## Setup
 
 1. **Clone the repo** and open it in Unity.
