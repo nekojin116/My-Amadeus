@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f26c3c16155ad4da6fcb4bfdb9d922, type: 3}
+  m_Name: AIDrivenConfig
+  m_EditorClassIdentifier: AIFW.Config::AIDrivenFW.Config.AIDrivenConfig
+  _isDeepDebug: 1
+  _isAllaiveOllama: 1
+  _aiSoftwareLink: https://github.com/ggml-org/llama.cpp/releases/
+  _baseFilePath: AIDrivenFreameWork
+  _aiSoftwareFileName: llama-cli
+  _tempFilePath: Temp
+  _modelSubPath: Models
+  _aiSoftwareFileFilters:
+  - '*.zip'
+  - '*.tar.gz'
+  - '*.tar'
+  _modelFileFilters:
+  - '*.gguf'
+  _ollamaRecommendModelInfos:
+  - ModelName: Qwen2.5:0.5B
+    DownloadUrl: https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF
+    MinVRAM: 2048
+    MaxVRAM: 4096
+    Level: 0
+  - ModelName: llama3.1:8b
+    DownloadUrl: https://huggingface.co/mmnga/Llama-3.1-8B-Instruct-gguf
+    MinVRAM: 4096
+    MaxVRAM: 8192
+    Level: 2
+  - ModelName: Qwen3.5:9b
+    DownloadUrl: https://huggingface.co/unsloth/Qwen3.5-9B-GGUF
+    MinVRAM: 8192
+    MaxVRAM: 32768
+    Level: 1
+  _recommendModelInfos:
+  - ModelName: LFM2.5-1.2B-Instruct
+    DownloadUrl: https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF
+    MinVRAM: 2048
+    MaxVRAM: 8192
+    Level: 0
+  - ModelName: Llama-3-ELYZA-JP:8B
+    DownloadUrl: https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B-GGUF
+    MinVRAM: 4096
+    MaxVRAM: 8192
+    Level: 1
+  - ModelName: qwen3.5:9b
+    DownloadUrl: https://huggingface.co/unsloth/Qwen3.5-9B-GGUF
+    MinVRAM: 8192
+    MaxVRAM: 32768
+    Level: 2
