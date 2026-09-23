@@ -7,14 +7,10 @@ A Unity implementation of **Amadeus**, an AI construct built from the memories a
 
 This is a hobby project of mine, nothing is released yet.
 
-## Setup
+## The project is trying to be Local model first, so users can experience a free Ai chatbot that runs fully on their own hardware, Using paid apis is possible but not optimised, it ends up being highly expensive ! 
 
-1. **Clone the repo** and open it in Unity.
-2. On the `ChatAi` component in the scene, enter an API key for at least one provider (Gemini, OpenAI, or Claude) in the Inspector.
-   > ⚠️ API keys currently live directly on the `ChatAi` component. Secure, gitignored key storage isn't implemented yet — see the roadmap below. Do not commit a scene/prefab with real keys filled in.
-3. The `Amadeus` character profile is already set up, referencing `Amadeus_SystemPrompt.txt`. Assign it to `ChatAi`'s `Active Character` field if it isn't already.
-4. Wire up the UI references on `ChatAi` (`promptInput`, `sendButton`, `responseText`) if not already set.
-5. Press Play and talk to Amadeus. (So far it's only a text box that barely looks like a texting app lol)
+To discuss the project and give feedback, please join our [Discord](https://discord.gg/wt4ynvtXjD)
+Our Models fine-tunes are hosted in the [Hugging face page](https://huggingface.co/nekojin116/Amadeus)
 
 ## Roadmap
 
@@ -22,12 +18,17 @@ This is a hobby project of mine, nothing is released yet.
 |---|---|
 | Multi-provider backend (Gemini / OpenAI / Claude) | ✅ |
 | Multi-turn conversation memory | ✅ |
-| Amadeus character profile & persona | ✅ |
-| Secure, gitignored API key storage | ❌ |
+| Amadeus Persona system prompts | ✅ |
+| Local Model support  | Working on it |
 | Visual 3D Kurisu model | ❌ |
 | Model Animations | ❌ |
 | Model LipSync| ❌ |
 | Prompt caching | ❌ |
 | Streaming responses | ❌ |
-| Mock/offline provider for UI testing | ❌ |
+
+
+## Credits 
+Lookbe : [Llama.cpp Unity](https://github.com/lookbe/llama-cpp-unity/releases/tag/0.0.1)
+
+
   
