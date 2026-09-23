@@ -2,8 +2,6 @@
   "dependencies": {
     "ai.lookbe.llamacpp": "https://github.com/lookbe/llama-cpp-unity.git",
     "ai.lookbe.pockettts": "https://github.com/lookbe/pocket-tts-unity.git",
-    "ai.lookbe.qwen3tts": "https://github.com/lookbe/qwen3-tts-unity.git",
-    
     "com.github.asus4.onnxruntime": "0.4.2",
     "com.github.asus4.onnxruntime.unity": "0.4.2",
     "com.unity.ai.navigation": "2.0.10",

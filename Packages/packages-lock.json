@@ -14,13 +14,6 @@
       "dependencies": {},
       "hash": "86eebf45b34a8828452bb7aebfa29754f4e107c9"
     },
-    "ai.lookbe.qwen3tts": {
-      "version": "https://github.com/lookbe/qwen3-tts-unity.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "8fcffb4dfc544117258341ef2e4eace316016430"
-    },
     "com.github.asus4.onnxruntime": {
       "version": "0.4.2",
       "depth": 0,
